@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- jquery support file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").on({
+                dblclick: function(){
+                    $(this).css("background-color","wheat")
+                    $(this).css("color","black")
+                    alert("You double clicked on paragraph.");
+                }
+            });
+        });
+
+    </script>
+</head>
+<body><center><br><br><br><br><br><br>
+    <p style="font-size: 18pt; color: beige; background-color: teal; width:200px; height: 70px">Double click me</p>
+    <script src="jquery.js"></script></center>
+</body>
+</html>

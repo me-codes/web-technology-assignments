@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- jquery support file-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("color", "white");
+                    $(this).css("background-color","teal")
+                }
+            });
+        });
+    </script>
+</head>
+<body><br><br><hr style="border: 1px dashed #000;">
+<p align="center" style="font-family: 'Baloo Thambi 2', cursive; size:14pt;">Move the mouse pointer on the text to change the text color.</p>
+<br><br><hr style="border: 1px dashed #000;">
+<script src="jquery.js"></script>
+</body>
+</html>
